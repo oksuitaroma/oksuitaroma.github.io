@@ -11,7 +11,7 @@ li{
     list-style: none;
 }
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family:  Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -80,7 +80,7 @@ body{
     margin-bottom: 50px;
 }
 #map {
-    height: 400px;
+    height: 500px;
     width: 100%;
 }
 .title__h2{
@@ -90,11 +90,13 @@ body{
 }
 footer{
     background-color: #414146;
+    padding-top: 100px;
+    
 }
 .footer__container{
     display: grid;
-    grid-template-columns: 55% 35%;
-    grid-column-gap: 3%;
+    grid-template-columns: 45% 40%;
+    grid-column-gap: 8%;
     width: 95%;
     margin: 0 auto;
 }
@@ -121,4 +123,13 @@ footer{
 }
 .fa-instagram:hover{
     color: #e4373e;
+}
+.about_us{
+    margin-bottom: 25px;
+}
+.copyright {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+    
 }
