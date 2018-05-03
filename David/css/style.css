@@ -1,0 +1,295 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	position: relative;
+	margin: 0 auto;
+	width: 100%; 
+	font-family: 'Fregat_regular', serif;
+}
+
+/*--------------------------HEADER---------------------------------*/
+.container{
+	padding: 0 70px;
+	margin: 0 auto;
+	
+}
+.container2{
+	padding: 0 195px;
+	margin: 0 auto;
+	
+}
+.header a {
+	text-decoration : none;
+}
+.menu {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.Logo {
+	font-size : 40px;
+	float :left;
+	font-family: 'Fregat_bold', serif;
+}
+.menu li {
+    list-style : none;
+	float :right;
+	text-transform: uppercase;
+}
+.menu a { 
+		display: block;
+		color :black;
+		line-height: 20px;
+		padding: 10px 10px;
+		text-decoration : none;
+		font-size : 14px;
+}
+.hero {
+	background-image: url(img/head.jpg);
+	height: 602px;
+}
+.box1{
+	width: 530px;
+	padding-top: 50px;	
+}
+.hero__text1{
+	font-family: 'Fregat_bold', serif;
+	color: #63b945;
+	font-size : 28px;
+}
+.hero__text2{
+	margin-top: 20px;
+	color: #4e4e4e;
+	font-size : 19px;
+}
+.buttons input {
+    padding: 10px;
+	border-radius: 5px;
+	font-size: 14px;
+    font-family: Arial , Tahoma , sans-serif;
+    height: 43px;
+}
+.button1{
+	color: white;
+	background-color:  #63b945;
+	border : 2px solid #63b945;
+}
+.button2{
+	margin-left: 35px;
+	border : 2px solid #63b945;
+	color: #63b945;
+	background-color: transparent;
+	text-transform: uppercase;	
+}
+.about{
+	height: 215px;
+	background-color: #63b945;
+	color: white;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.about__text1{
+	font-family: 'Fregat_bold', serif;
+	font-size : 20px;
+	width: 50%;
+	text-align: center;
+}
+.about__text2{
+	font-size : 16px;
+	width: 50%;
+	list-style : none;
+	text-align: left;
+}
+/*-----------------------------------------------------------*/
+.what {
+	margin: 0 auto;
+	width: 968px;
+	height: 1200px;	
+	background-color: white;
+	color: black;
+}
+.what__text1{
+	font-family: 'Fregat_bold', serif;
+	color: #63b945;
+	font-size : 32px;
+	text-align: center;
+	margin: 50px 0 ; 
+}
+
+.what__text2{
+	font-size : 19px;
+	text-align: center;
+}
+.slider{
+	height: 640px;
+	margin-top: 50px; 
+	text-align: center;
+} 
+
+.what__box1{
+	width: 470px;
+	float: left;
+	font-size : 15px;
+	padding: 40px 7px; 
+	overflow: hidden;
+}
+.what__box2 {
+ clear: both;
+ text-align: center;
+ padding: 0 30px;
+ 
+}
+.call{
+	color: gray;
+	background-color: #ddffcc;
+	height: 370px;
+}
+.call__container{
+	width: 968px;
+	margin: 0 auto;
+	padding: 55px 0;
+
+}
+.call__title{
+text-align: center;
+font-size: 24px;
+
+}
+.call__text{
+	text-align: center;
+	font-size: 17px;
+	padding-top: 20px;
+}
+.call__cont{
+	padding: 0 100px;
+}
+.call__box{
+width: 170px;
+padding: 40px 0;
+float: left;
+text-align: center;
+}
+.call__box1{
+	width: 370px;
+	padding: 40px 20px;
+	float: left;
+	text-align: center;
+}
+.call__cont h3,h4 {
+padding: 5px;
+text-align: center;
+}
+.button3 {
+	border-radius: 5px;
+	font-size: 14px;
+    height: 43px;
+	padding: 10px 65px;
+	border : 1px solid black;
+	color: black;
+	background-color: transparent;
+	text-transform: uppercase;
+	
+	
+}
+.divbutton{
+	margin: 0 auto;
+	width: 280px;
+}
+.info {
+	background-image: url(img/stock.jpg);
+	height: 900px;
+}
+
+.info__container{
+	width: 968px;
+	margin: 0 auto;
+	padding: 85px 0;
+}
+.info__title{
+text-align: center;
+font-family: 'Fregat_bold', serif;
+color: #63b945;
+font-size : 32px;
+}
+.info__text{
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.info__text1{
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.info__text2{
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.info__text2{
+	margin-top: 20px;
+	font-size: 14px;
+}
+.info__time{
+	width: 968px;
+	padding-top: 95px;
+	margin: 0 auto;
+	color: white;
+	margin-top: 20px;
+	font-size: 14px;
+}
+.info__box{
+	float: left;
+	background-repeat: no-repeat;
+	height: 170px;
+	width: 160px;
+	display: flex;
+    justify-content: center;
+	align-items: center; 
+	flex-direction: column;
+	margin-right: 33px;
+}
+.info__box__text1{
+	color: #63b945;
+	font-size : 55px;
+	font-family: 'Fregat_bold', serif;
+	
+}
+.info__box__text2{
+	color: #63b945;
+	font-size : 19px;
+	margin-top: 15px;
+}
+
+.info__box1{
+	background-image: url(img/5.png);
+	
+}
+.info__box2{
+	background-image: url(img/4.png);
+	
+}
+.info__box3{
+	background-image: url(img/3.png);
+	
+}
+.info__box4{
+	background-image: url(img/2.png);
+	
+}
+.info__box5{
+	background-image: url(img/1.png);
+}
+.info__txt{
+	width: 160px;
+	margin: 35px 33px 0 0 ;
+	float: left;
+	text-align: center;
+	color:  #63b945;
+	font-size: 22px;
+}

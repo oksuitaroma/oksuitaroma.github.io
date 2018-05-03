@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "Fregat_bold";
+	src: url("../fonts/Fregat_bold.otf") format("opentype");
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Fregat_bold_italic";
+	src: url("../fonts/Fregat_bold_italic.otf") format("opentype");
+	font-style: italic;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Fregat_italic";
+	src: url("../fonts/Fregat_italic.otf") format("opentype");
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Fregat_regular";
+	src: url("../fonts/Fregat_regular.otf") format("opentype");
+	font-style: normal;
+	font-weight: normal ;
+}
