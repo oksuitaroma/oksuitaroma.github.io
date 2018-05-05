@@ -12,9 +12,7 @@
 
 /*--------------------------HEADER---------------------------------*/
 .container{
-	padding: 0 70px;
 	margin: 0 auto;
-	
 }
 .container2{
 	padding: 0 195px;
@@ -48,12 +46,16 @@
 		font-size : 14px;
 }
 .hero {
-	background-image: url(img/head.jpg);
+	margin: 0 auto;
+	background: url(img/head.jpg) no-repeat ;
 	height: 602px;
+	
 }
 .box1{
+	padding-left: 70px;
 	width: 530px;
-	padding-top: 50px;	
+	padding-top: 50px;
+		
 }
 .hero__text1{
 	font-family: 'Fregat_bold', serif;
@@ -91,6 +93,7 @@
 	display: flex;
     justify-content: center;
 	align-items: center;
+	
 }
 .about__text1{
 	font-family: 'Fregat_bold', serif;
@@ -292,4 +295,10 @@ font-size : 32px;
 	text-align: center;
 	color:  #63b945;
 	font-size: 22px;
+}
+
+@media screen and (min-width:1366px){
+    .container{
+        max-width:1366px;
+    }
 }
