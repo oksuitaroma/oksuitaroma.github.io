@@ -1,0 +1,209 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.container {
+		width: 100% ;
+	}	
+	 .slide {
+		/*margin: 0 70px 20px 60px;*/
+		margin: 0 70px 20px 60px;
+	}
+	#little {
+	    width: 24%;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.container-fluid {
+		width: 100%;
+	}
+	.section1 {
+		padding-left: 0;
+		margin-left: -10px;
+	}
+	.ukr {
+		height: 310px;
+	}
+	.section1 .slick-slider {
+    	width: 100%;
+    	margin-left: 3%;
+	}
+	#little {
+	    width: 25%;
+	}
+	
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	.icon {
+		margin-bottom: 10px;
+		background-size: cover;
+	}
+	.ukraine {
+		background: url(../img/ukraine.png) no-repeat 50% 35%;
+	}
+	.section4 .box {
+		margin-top: 10px;
+	}
+	.section4 .mbutv {
+		margin-bottom: 20px;
+	}
+	.downb{
+
+		width: 75%;
+	}
+	.dbut {
+		margin-bottom: 0px;
+	}
+	.section4 .buro {
+    	padding: 10px 0 0 0px;
+	}
+	.square2 .button2 {
+	    width: 50%;
+	}
+	#little {
+	    width: 50%;
+	}
+	.firstone {
+		margin-bottom: 10px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.mainheader span {
+		margin: 0 auto;
+	}
+	.section4 .button2 {
+		width: 100%;
+		left: 0%;
+		padding: 13px 0;
+	}
+	.section4 .button1 {
+		width: 100%;
+		left: -1%;
+		padding: 10px 0;
+	}
+	.button {
+		padding: 0;
+		margin: 0;
+	}
+	.ukr {
+		height: 320px;
+	}
+	.section4 {
+		width: 100%;
+	}
+	.section4 .button1 {
+		width: 100%;
+	}
+	.section4 .button2 {
+		width: 100%;
+	}
+	.downb .button2 {
+		
+		margin-top: 15px;
+	}
+	.square2 .button2 {
+	    width: 60%;
+	}
+
+}
+	
+	
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+	body {
+		font-size: 15px;
+	}
+	
+	.leftpad {
+		width: 100%;
+		padding: 0;
+	}
+	.icon {
+		margin-bottom: 10px;
+		background-size: cover;
+	}
+	.ukr {
+		height: 360px;
+	}
+	.button1{
+		width: 100%;
+		left: 0;
+	}
+	.section1 {
+		margin: 0 auto;
+	}
+	.section1 .button2 {
+		margin-left: -11px;
+	}
+	.button2 {
+		height: 45px;
+		top: 230px;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.mainheader {
+		font-size: 12px;
+	}
+	.ukraine {
+		background: url(../img/ukraine.png) no-repeat 50% 25%;
+	}
+	#little {
+	    width: 100%;
+	    padding-left: 0;
+	    margin-left: 0;
+	}
+	.section1 .slick-slider {
+	    margin-left: 0%;
+	}
+	.slick-slider {
+	    padding-left: 0px;
+	}
+	.firstone {
+		margin-bottom: 0px;
+	}
+	.slick-slider {
+   		margin-bottom: 18px;
+	}
+	.icon22 {
+		margin-bottom: 0px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

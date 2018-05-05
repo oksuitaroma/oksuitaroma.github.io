@@ -1,0 +1,408 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+body {
+	font-size: 16px;
+	min-width: 250px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "Segoe", sans-serif;
+	font-weight: 1;
+	/*overflow-x: hidden;*/
+	min-width: 330px;
+	overflow: auto;
+}
+.hidden {
+	display: none;
+}
+
+.container {
+	width: 80%;
+}
+.section1 {
+	background-color: #d7d7d7;
+}
+.section1 .row {
+	margin-bottom: 10px;
+}
+.mainheader {
+	font-size: 14px; 
+	font-family: "Segoeb", sans-serif;
+	color: #2b569a;
+	height: 150px;
+}
+.mainheader h1{
+	text-align: center;
+	padding: 25px 0 0 0;
+}
+.mainheader span {
+	display: block;
+	width: 80px;
+	border-bottom: 3px #2b569a solid;
+	margin: 0 auto;
+}
+.icon {
+	/*background-size: 100%;*/
+	height: 150px;
+	color: white;
+	text-align: center;
+	padding: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.leftpad {
+	padding: 0 0 0 10px;
+}
+.icon span {
+	font-family: "Segoeb", sans-serif;
+	display: inline-block;
+	position: relative;
+	top: 25%;
+	right: 0%;
+}
+.icon11 {
+	background-image: url(../img/1.png);
+}
+.icon12 {
+	background-image: url(../img/2.png);
+}
+.icon13 {
+	background-image: url(../img/3.png);
+}
+.icon14 {
+	background-image: url(../img/4.png);
+}
+.icon21 {
+	background-image: url(../img/5.png);
+}
+.icon22 {
+	background-image: url(../img/6.png);
+}
+.icon31 {
+	background-image: url(../img/7.png);
+}
+.icon32 {
+	background-image: url(../img/8.png);
+}
+.icon33 {
+	background-image: url(../img/9.png);
+}
+.ukr {
+	height: 300px;
+}
+.ukraine {
+	background: url(../img/ukraine.png) no-repeat 50% 40%;
+}
+.mainrow{
+	margin: 0;
+}
+.nomarg {
+	margin: 0;
+}
+.nopad {
+	padding: 0;
+}
+.ukr .text {
+	text-transform: uppercase;
+	font-family: "Segoeb", sans-serif;
+	color: #2b569a;
+	margin: 0;
+	text-align: center;
+}
+.text {
+	font-family: "Segoeb", sans-serif;
+	color: #2b569a;
+}
+.mbutton {
+	text-transform: uppercase;
+	font-family: "Segoeb", sans-serif;
+	font-size: 12px;
+	color: #2b569a;
+	padding: 10px 10px 10px 10px;
+	border: 3px #2b569a solid;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+.ukr a {
+	text-decoration: none;
+}
+.button1 {
+	width: 58%;
+	top: 239px;
+	left: 2%;
+	min-width: 175px;
+}
+.button2 {
+	width: 30%;
+	color: black;
+	top: 239px;
+	left: 3%;
+	padding: 13px;
+	border: none;
+}
+span.button2 {
+	background-color: #ff9900;
+}
+.section2 {
+	height: 300px;
+	background-color: white;
+}
+.mainheader span {
+	left: 46.5%;
+}
+.slick-slider {
+    width: 95%;
+    margin-left: 2%;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+.slick-slide{
+	width: 1.1%;
+}
+.slick-prev::before {
+    color: black;
+}
+.slick-next::before {
+    color: black;
+}
+.section3 {
+	background-color: #2b569a;
+}
+.section3 .mainheader{ 
+	color: white;
+}
+.section3 span {
+	border-bottom: 3px #fff solid;
+}
+.user {
+	width: 240px;
+	margin: 0 auto;
+}
+.user img[src*="img/cim"] {
+	float: left;
+	padding-right: 15px;
+}
+.comment {
+	text-align: justify;
+	padding-top: 15px;
+}
+.cntr {
+	text-align: center;
+}
+.comment span {
+	display: inline-block;
+}
+.section4  .mbutv{
+	padding: 10px 25px;
+	width: 100%;
+	margin: 0 auto;
+}
+.dbut {
+	margin: 30px auto;
+	width: 200px;
+	margin-bottom: 60px;
+}
+.section4 {
+	background-color: #dcdcdc;
+}
+.square .box {
+	background-color: white;
+	height: 250px;
+	padding: 30px 5px 0 5px;
+}
+.square2 .box {
+	background-color: grey;
+}
+.square2 p.pb{
+	color: white;
+}
+.square2 .button2 {
+	position: static;
+	width: 70%;
+	padding: 15px 0 15px 0;
+	margin-top: 20px;
+}
+.square p{
+	font-family: "Segoeb", sans-serif;
+	color: #2b569a;
+	line-height: 0.9;
+}
+.pb {
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+.section4 .buro {
+	padding: 50px 0 0 0px;
+}
+.buro p {
+	padding-top: 20px;
+	text-align: justify;
+}
+.downb{
+	margin: 30px auto;
+	width: 50%;
+}
+.downb .mbutton {
+	position: static;
+	display: inline-block;
+}
+.downb .button1 {
+	padding: 10px 10px;
+	min-width: 195px;
+}
+.downb .button2 {
+	border: none;
+	padding: 13px 10px;
+}
+.myslide {
+	width: 300px;
+	background: url(../img/sldr.png) no-repeat;
+	height: 270px;
+	position: relative;
+	margin: 0 auto;
+}
+.toptext {
+	position: relative;
+	top: 30px;
+	left: 80px;
+	font-size: 22px;
+}
+.legal .toptext {
+	left: 71px;
+}
+.nostif .toptext {
+	left: 54px;
+}
+.nostif .midtext {
+	left: 38px;
+}
+.legal .bottext{
+	left: 73px;
+}
+.nostif .bottext {
+	left: 75px;
+}
+.midtext {
+	color: white;
+	position: relative;
+	top: 55px;
+	left: 45px;
+}
+.bottext {
+	position: relative;
+	top: 80px;
+	left: 69px;
+	font-size: 22px;
+}
+.section3 .your-class{
+	/*width: 80%;*/
+}
+.section3 .slick-slide{
+	width: 0.85%;
+	margin-right: 0px;
+}
+.yourclass1 div img {
+	margin: 0 auto;
+	display: block;
+}
+div.slick-active img {
+	margin: 0 auto;
+}
+.section3 {
+	height: 630px;
+}
+.s3button {
+	text-decoration: none;
+}
+.s3button {
+	text-decoration: none;
+	display: block;
+	margin: 0 auto;
+}
+.s3button span {
+	color: #ffd800;
+	font-size: 18px;
+	padding: 10px 30px;
+	border: 3px solid #ffd800;
+	width: 100%;
+}
+.bdiv {
+	margin: 0 auto;
+	width: 275px;
+	margin-top: 75px;
+}
+#little {
+    padding: 0px;
+    margin: -30px 0px -28px -9px;
+    width: 24%;
+}
+.your-class3 {
+	position: relative;
+}
+.section3 .slick-dots {
+    left: -1%;
+}
+.section1 .slick-dots {
+    position: absolute;
+    top: 70%;
+    left: 0px;
+    color: white;
+    bottom: 0;
+}
+.slick-dots li button::before {
+	color: white;
+}
+.slick-dots li.slick-active button::before {
+	color: white;
+}
