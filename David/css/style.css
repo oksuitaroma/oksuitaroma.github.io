@@ -11,6 +11,8 @@
 }
 
 /*--------------------------HEADER---------------------------------*/
+
+
 .container{
 	margin: 0 auto;
 }
@@ -23,11 +25,12 @@
 	text-decoration : none;
 }
 .menu {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	padding: 20px;
+	
 	overflow: hidden;
 }
 .Logo {
+	
 	font-size : 40px;
 	float :left;
 	font-family: 'Fregat_bold', serif;
@@ -297,8 +300,11 @@ font-size : 32px;
 	font-size: 22px;
 }
 
-@media screen and (min-width:1366px){
-    .container{
-        max-width:1366px;
-    }
+@media screen and (min-width:1356px){
+    
+	.wrapper{
+		max-width:1356px;
+		box-shadow: 0 0 15px rgba(0,0,0,0.5);
+		
+	}
 }
